@@ -1,0 +1,50 @@
+*{
+    font-family: 'Major Mono Display', monospace;
+}
+body {
+    background-color: #232323
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 30px;
+}
+
+#message{
+    color: black;
+    font-size: 20px;
+}
+
+.square {
+    float:left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: blueviolet;
+    margin: 1.66%;
+    border-radius: 10px 150px 30px 150px;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.square:hover {
+    transform: scale(0.9);
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+}
+
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+.selected {
+    color:blanchedalmond;
+    background-color:rgb(161, 53, 161);
+
+}
